@@ -1,0 +1,27 @@
+Group:
+
+Name: Seema Rani, Roll number: BS20B034
+Name: Araj Khandelwal, Roll number: CS20B008
+
+For each question: just run the compile.sh file to compile the c files.
+Command: bash compile.sh
+
+For Q2, web2 is taken from a open source repository from github.
+
+
+How to run:
+
+Q1:
+Compile the c files: bash compile.sh ; 
+Run server: ./server 8800 10 ./songs
+
+Q2:
+Compile the c files: bash compile.sh ; 
+Run server: ./server 8888 ./webroot/web1
+                             (./webroot/web2)
+
+Q3:
+Compile the c files: bash compile.sh ; 
+Run server: ./server 8080 10 120
+
+NOTE: my_server.c(in q1/q3) and webserver.c(in Q2) files are just the copy of the required server files.
